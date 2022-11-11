@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mo-tool</title>
+  <base href="/1/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *,
+    ::after,
+    ::before {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      display: block;
+      background-color: #121212;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    .lds-hourglass {
+      display: inline-block;
+      position: relative;
+      width: 10px;
+      height: 10px;
+    }
+
+    .lds-hourglass:after {
+      content: " ";
+      display: block;
+      border-radius: 50%;
+      width: 0;
+      height: 0;
+      margin: 6px;
+      box-sizing: border-box;
+      border: 10px solid #CCFF90;
+      border-color: #CCFF90 transparent #CCFF90 transparent;
+      animation: lds-hourglass 1.2s infinite;
+    }
+
+    @keyframes lds-hourglass {
+      0% {
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+
+      50% {
+        transform: rotate(900deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      100% {
+        transform: rotate(1800deg);
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <script type="text/javascript" src="../release.js"></script>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <app-root>
+    <div class="lds-hourglass"></div>
+  </app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime-es2020.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2020.js" type="module"></script><script src="styles-es2020.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="vendor-es2020.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2020.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+
+</html>

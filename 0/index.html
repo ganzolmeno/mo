@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>MO@tw</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css"
+        integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css"
+        integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/jquery.dataTables.css">
+    <link rel="stylesheet" href="css/p.min.css">
+    <link rel="stylesheet" href="css/w.min.css">
+</head>
+
+<body>
+    <div id="first_load">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header>
+        <div class="inner">
+            <div class="logo"> <a href="#/"> <span class='mo'>MO</span><span class="fas fa-at"
+                        style="display: inline;"></span>tw </a> </div>
+            <div id='tag-container'></div>
+            <div class="inner-right">
+                <nav class="menu-nav">
+                    <ul id="top-menu" class="ul-menu"></ul>
+                </nav>
+                <div class="user-nav">
+                    <ul class="ul-menu">
+                        <li> <Button id="btn-state" class="btn-u"><span class="fas fa-user icon-u"></span><span
+                                    class="btns-arr"></span></Button>
+                            <div class="list-state">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="input-group col-100"> <input id="input_player"
+                                                        class="input-left" placeholder="Type your in-game name here..."
+                                                        data-k="Type your in-game name here...@w@placeholder"
+                                                        type="text"> <span class="input-group-btn-span"> <button
+                                                            id="btn_loadplayer" class="btn-w input-group-btn"
+                                                            type='normal' onclick="wHs.LoadPlayer()"><span
+                                                                class='far fas icon-search'></span></button></span>
+                                                    <span class='fas icon-info'
+                                                        title='Help you search in-game highscores. If the loading fails, probably the cors-proxy is dead.'
+                                                        data-k="info-hs@w@title"></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class='state-content-combat'>
+                                            <td colspan="2"> <span>
+                                                    <div class="state-header-combat state-header col-100"
+                                                        data-k="Combat skills@i">Combat skills</div>
+                                                </span> </td>
+                                        </tr>
+                                        <tr class='state-content-pro'>
+                                            <td colspan="2">
+                                                <div class="state-header-pro state-header col-100"
+                                                    data-k="Professional skills@i">Professional skills</div>
+                                            </td>
+                                        </tr>
+                                        <tr class="state-content-other">
+                                            <td colspan="2">
+                                                <div class="state-header-other state-header col-100" data-k="Others@w">
+                                                    Others</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='center' colspan="2">
+                                                <div class="col-100"><button id="btn-state-submit" class='btn-w'
+                                                        type='normal' onclick="wHs.ReDraw()" style="width:100%;"
+                                                        data-k="Submit@i">Submit</button></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                        <li> <Button id="btn-setting" class="btn-u flag"><span class="fas fa-cog icon-u"></span><span
+                                    class="btns-arr"></span></Button>
+                            <div id="setting-box"> </div>
+                    </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='buttons'></div>
+    <main id="output"></main>
+    <footer></footer>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.preload.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="../release.js"></script>
+    <script type="text/javascript" src="js/w.js"></script>
+</body>
+
+</html>

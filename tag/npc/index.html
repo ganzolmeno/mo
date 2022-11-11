@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="zh">
+<head>    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+  <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+  <title>NPC 私人頻道</title><link rel="stylesheet" href="../../global.css">
+</head>
+<body>
+    <h3>NPC 私人頻道</h3>
+    <p>目的：此頻道為 TAG 而生。（<a href="https://mo.at.tw/tag" target="_blank">教學：如何顯示私人頻道 TAG</a>）</p>
+    <p>規則：在 NPC 頻道不允許發言，僅此一條。</p>
+    <p>誰可以加入?：所有遵守頻道規則的玩家。</p>
+    <p>我該如何加入：請找在線頻道管理員申請。</p>
+    <p>管理員名單：
+        <ul id="list"></ul>
+    </p>
+
+    <p>管理員守則：
+        <ul>
+            <li>向申請的玩家說明頻道規則。</li>
+            <li>對破壞規則的成員得以提醒，或逕行踢除處理。</li>
+            <li>被移除的成員如再次申請，務必再次說明規則。</li>
+            <li>可以自身判斷申請人是否惡意搗亂而拒絕邀請，但頻道暫不建立黑名單。</li>
+            <li>為了讓未加入的玩家快速找到管理員，不常上線的管理員將被移除。</li>
+        </ul>
+    </p>
+    <script>
+        links = document.getElementById('list');
+        mem = ['kkoma','ynfernity','biumengb','0_nirvana','kuni','jeantty','jkmec'];
+        mem.sort();
+        temp ="";
+        Array.from(mem).forEach(element => {
+            temp += `<li>${element}</li>`;
+        });
+        links.innerHTML = temp;
+    </script>
+</body>
+</html>

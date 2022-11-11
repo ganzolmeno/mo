@@ -1,0 +1,43 @@
+body {
+  font-family: "Microsoft JhengHei", Lato;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.block {
+  margin: 25px 0;
+}
+
+a {
+  word-break: keep-all;
+}
+
+a,
+a:visited,
+a:active,
+a:link {
+  color: #79c7e9;
+  padding: 6px;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #80fff9;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #ddd;
+}
+
+.green-block {
+  border: #ccff90 2px solid;
+  padding: 10px;
+  width: fit-content;
+  margin: 6px;
+  color: #ccff90;
+}

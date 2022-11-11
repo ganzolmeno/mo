@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><title>loading...</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico"><style>body{background-color:#1e1e1e;}</style>
+<script type="text/javascript">
+window.addEventListener('load', function (_) {
+fetch(location.origin + '/0/lang/routes.json')
+.then(function (response) { return response.json(); })
+.then(function (routes) {
+var hash = location.hash;
+var snapShot = location.pathname.split('/');
+var fragment = snapShot.reduce(function (previousValue, routes) { return previousValue + routes; }, '');
+fragment = (hash+fragment).includes('#') ?'k':fragment;
+fragment = '' == fragment ? 'home' : fragment;
+var url = routes[fragment.toLowerCase()];
+if (!url) {url = location.origin + "/home";}
+location.href = url + hash;
+});});
+</script></head><body></body></html>
