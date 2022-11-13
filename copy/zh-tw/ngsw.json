@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1668185662669,
+  "timestamp": 1668307746940,
   "index": "/copy/zh-tw/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/copy/zh-tw/118.5029645fdb821272.js",
-        "/copy/zh-tw/205.1ef6fe2e0ecfeec3.js",
+        "/copy/zh-tw/205.c7d042511b4b6c2f.js",
         "/copy/zh-tw/229.e97751c3baa27642.js",
         "/copy/zh-tw/236.ac15bd1fb0c8b4ab.js",
         "/copy/zh-tw/286.0b6384dad4bcb5cb.js",
@@ -22,17 +22,17 @@
         "/copy/zh-tw/514.da8ab0f460fa9454.js",
         "/copy/zh-tw/533.0d268d74ce2c8488.js",
         "/copy/zh-tw/578.e319ffec057387bd.js",
-        "/copy/zh-tw/663.493bbdab57f2bb34.js",
+        "/copy/zh-tw/663.d2d1f0c8d9a103b7.js",
         "/copy/zh-tw/698.21779f58df1d79d9.js",
         "/copy/zh-tw/840.33f4420eaf176a47.js",
         "/copy/zh-tw/918.d0a83c594a8b3472.js",
         "/copy/zh-tw/favicon.png",
         "/copy/zh-tw/index.html",
-        "/copy/zh-tw/main.3a0b2985993e579a.js",
+        "/copy/zh-tw/main.77144c29e6742cf4.js",
         "/copy/zh-tw/manifest.webmanifest",
         "/copy/zh-tw/polyfills.2aa53ff9f4acf18d.js",
-        "/copy/zh-tw/runtime.ef6ce190dc6d9aa9.js",
-        "/copy/zh-tw/styles.3dab9f4909cff167.css"
+        "/copy/zh-tw/runtime.0473972f6e515177.js",
+        "/copy/zh-tw/styles.624a254737ef5e64.css"
       ],
       "patterns": []
     },
@@ -49,6 +49,9 @@
         "/copy/zh-tw/assets/css/DKNorthumbria.ttf.eot",
         "/copy/zh-tw/assets/css/DKNorthumbria.ttf.svg",
         "/copy/zh-tw/assets/css/DKNorthumbria.ttf.woff",
+        "/copy/zh-tw/assets/flags/CN.png",
+        "/copy/zh-tw/assets/flags/EN.png",
+        "/copy/zh-tw/assets/flags/TW.png",
         "/copy/zh-tw/assets/i18n/en/chatrules.html",
         "/copy/zh-tw/assets/i18n/en/rules.html",
         "/copy/zh-tw/assets/i18n/zh-tw/chatrules.html",
@@ -228,7 +231,7 @@
   "dataGroups": [],
   "hashTable": {
     "/copy/zh-tw/118.5029645fdb821272.js": "4ecc9a3c21343ee1795e118c59961f39df3762f7",
-    "/copy/zh-tw/205.1ef6fe2e0ecfeec3.js": "116822c1509b33fd97ac76d1e617b26a205a6480",
+    "/copy/zh-tw/205.c7d042511b4b6c2f.js": "b32625915ea3d954aad3ff22663f47216cfa0db8",
     "/copy/zh-tw/229.e97751c3baa27642.js": "45a9dc8c763545c4099b6f07cd986e9377a055da",
     "/copy/zh-tw/236.ac15bd1fb0c8b4ab.js": "0b6098e267a98296b15f91923bc838430700c505",
     "/copy/zh-tw/286.0b6384dad4bcb5cb.js": "3c8bcc82e50807baba8d545e4271718eb3481989",
@@ -238,7 +241,7 @@
     "/copy/zh-tw/514.da8ab0f460fa9454.js": "ae6f12c7aba66f4f922d35f4abd878e9594dad8d",
     "/copy/zh-tw/533.0d268d74ce2c8488.js": "cfecbd0e35db1809ab475d50579b18cdba838743",
     "/copy/zh-tw/578.e319ffec057387bd.js": "1a5916ca9f7f1bd5d4d050f4dfee98d9a732f11e",
-    "/copy/zh-tw/663.493bbdab57f2bb34.js": "882ebc5cf468629e9f71d50c985dcecf8081cfed",
+    "/copy/zh-tw/663.d2d1f0c8d9a103b7.js": "365b84af9aebeb19f55a604b7a07deb65f461d5c",
     "/copy/zh-tw/698.21779f58df1d79d9.js": "36e0e3862bbe74328976012718afb5ce49387cda",
     "/copy/zh-tw/840.33f4420eaf176a47.js": "029a2aa4904e5f8315f6f7ce91040e9f77f254aa",
     "/copy/zh-tw/918.d0a83c594a8b3472.js": "f7770ee66d8daeba8942c64f7bb81b35ed6fe5cf",
@@ -247,6 +250,9 @@
     "/copy/zh-tw/assets/css/DKNorthumbria.ttf.eot": "440d4291e6c4934bdf74c8bfd49aa615b04d03ef",
     "/copy/zh-tw/assets/css/DKNorthumbria.ttf.svg": "8fa8fb0defc4571c4ece0813458c828f3e05bc5e",
     "/copy/zh-tw/assets/css/DKNorthumbria.ttf.woff": "eff709d36846980672de524041c3aa16eaeb941e",
+    "/copy/zh-tw/assets/flags/CN.png": "44904baba5b53926a7af7d966fb36566c93599bf",
+    "/copy/zh-tw/assets/flags/EN.png": "0c5169475208e7d016dd5234c0a4f39069a493cc",
+    "/copy/zh-tw/assets/flags/TW.png": "c8b5e6568396f77681862f5f62dd4d64361afebe",
     "/copy/zh-tw/assets/i18n/en/chatrules.html": "252b754b58ebfe2c65f71bd5aaee8b372ffa1936",
     "/copy/zh-tw/assets/i18n/en/rules.html": "762e212c1fe6567638df1de2aee90dc4d4398da0",
     "/copy/zh-tw/assets/i18n/zh-tw/chatrules.html": "d00702496b6be388a8bf5dab445ed13aef602880",
@@ -420,12 +426,12 @@
     "/copy/zh-tw/assets/sheet/wearable/weapons2h.png": "692f7a74b8854129b00f85592e8b681d61b7d296",
     "/copy/zh-tw/assets/version.json": "ad4e173dcf768efcf322359de4edfaa328593ace",
     "/copy/zh-tw/favicon.png": "45b124822551bdcf4aa40e2ba8187dda2e2de018",
-    "/copy/zh-tw/index.html": "f4981ccebefc82d2233492117adfe84cc45ed779",
-    "/copy/zh-tw/main.3a0b2985993e579a.js": "fdbc434fc576ad85e93f39a008350682f753f7d2",
-    "/copy/zh-tw/manifest.webmanifest": "672145bc0743c1bdf51246aa3864645a2dfd5063",
+    "/copy/zh-tw/index.html": "548830fd62180425a3d12bf0fbd0cb4ce78ffbf2",
+    "/copy/zh-tw/main.77144c29e6742cf4.js": "6af7fed9cf8b55390b865cc03b8359cfed596025",
+    "/copy/zh-tw/manifest.webmanifest": "3a6f754eb54142359ea102cb969094f67f06f6ce",
     "/copy/zh-tw/polyfills.2aa53ff9f4acf18d.js": "3b922ec94db24d9e3eb4fea1e1138e7324de9477",
-    "/copy/zh-tw/runtime.ef6ce190dc6d9aa9.js": "4ac03a960406a9fff78650fe5d69b0a3aa18fac0",
-    "/copy/zh-tw/styles.3dab9f4909cff167.css": "852a1919c6a12fa1f6f593dc5e9f3016f417f230"
+    "/copy/zh-tw/runtime.0473972f6e515177.js": "323018b1064af7d26231c7d8e1789e468a0dd271",
+    "/copy/zh-tw/styles.624a254737ef5e64.css": "44a8f844707c309add27cc9d082a271abccd468a"
   },
   "navigationUrls": [
     {
